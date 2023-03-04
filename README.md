@@ -1,6 +1,10 @@
 ## Todo Laravel App
 
-A very simple task management web application built using Laravel. With My Tasks, you can create, edit, delete, and filter tasks by their status.
+A very simple task management web application built using Laravel.
+
+With this app, you can create, edit, delete, and filter tasks by their status.
+
+
 ![Task List](/screenshots/index.png)
 
 # Features
