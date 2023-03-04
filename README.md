@@ -14,9 +14,9 @@ With this app, you can create, edit, delete, and filter tasks by their status.
 * Filter tasks by status
 
 ## Technologies Used
-- PHP 7.4
-- Laravel 8
-- MySQL 5.7
+- PHP 8.2.0
+- Laravel 10.1.5
+- MySQL 15.1
 - HTML/CSS
 - Bootstrap 5
 
