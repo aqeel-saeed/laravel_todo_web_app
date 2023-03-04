@@ -3,34 +3,6 @@
 use App\Http\Controllers\TaskController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
-
-/*
-Route::get('/welcome', function () {
-    return view('welcome');
-})->name('welcome');
-
-Route::get('/', [TaskController::class, 'index']);
-
-Route::get('create', [TaskController::class, 'create']);
-
-Route::get('details', [TaskController::class, 'details']);
-Route::get('edit', [TaskController::class, 'edit']);
-Route::post('update', [TaskController::class, 'update']);
-
-Route::get('delete', [TaskController::class, 'delete']);
-*/
-
 // Show all tasks
 Route::get('/tasks', [TaskController::class, 'index'])->name('tasks.index');
 
